@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.listContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.noteslist {
+  width: 25%;
+  display: flex;
+  margin: 20px;
+  background-color: #ba324f;
+  padding: 15px;
+  display: flex;
+  color: white;
+}
+
+.noteslist > p {
+  line-height: 23px;
+}
+
+.rightContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dateContainer {
+  float: right;
+}
+
+.priorityContainer > button {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
